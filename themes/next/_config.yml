@@ -356,7 +356,10 @@ livere_uid: MTAyMC8yOTE0Ny81NzE1
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics:
+  enable: true
+  id: UA-103046497-1
+  site: auto
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/

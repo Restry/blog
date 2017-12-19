@@ -1,6 +1,6 @@
 ---
 title: css modules 的好处【编写中】
-tag:
+tags:
   - css
 ---
 

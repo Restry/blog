@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.0.3" pages="2">
+  <diagram name="第 1 页" id="6TfiuiBrqr4pOlo4uMMV">
+    <mxGraphModel dx="2242" dy="1338" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-3" value="Azure China" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1176" y="-516" width="480" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-8" value="Azure Global" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-456" y="-452" width="576" height="524" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-11" value="PVE2&lt;div&gt;Syno&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;labelBackgroundColor=none;" vertex="1" parent="3_7FBYXguzVTnh4Cdywl-8">
+          <mxGeometry x="48" y="260" width="36" height="33.39" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="3_7FBYXguzVTnh4Cdywl-8" source="3_7FBYXguzVTnh4Cdywl-12" target="3_7FBYXguzVTnh4Cdywl-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" edge="1" parent="3_7FBYXguzVTnh4Cdywl-8" source="3_7FBYXguzVTnh4Cdywl-12" target="3_7FBYXguzVTnh4Cdywl-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-12" value="ai-gateway" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;" vertex="1" parent="3_7FBYXguzVTnh4Cdywl-8">
+          <mxGeometry x="48" y="88" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-17" value="openai proxy" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="3_7FBYXguzVTnh4Cdywl-8">
+          <mxGeometry x="144" y="60" width="118" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-19" value="docker proxy" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="3_7FBYXguzVTnh4Cdywl-8">
+          <mxGeometry x="144" y="124" width="118" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-996" y="672" width="252" height="125.30999999999995" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-27" value="Jump Server" style="group;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;fontColor=default;dashed=1;strokeColor=default;rounded=1;arcSize=15;container=0;spacingLeft=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" vertex="1" connectable="0" parent="3_7FBYXguzVTnh4Cdywl-28">
+          <mxGeometry width="252" height="125.31" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-21" value="Transparent-n3&lt;div&gt;China North 3&lt;/div&gt;&lt;div&gt;t-n3.chinanorth3.cloudapp.chinacloudapi.cn&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=10;image=img/lib/azure2/compute/Virtual_Machine.svg;labelBackgroundColor=none;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacingRight=0;spacing=5;container=0;" vertex="1" parent="3_7FBYXguzVTnh4Cdywl-28">
+          <mxGeometry x="12.600000000000001" y="36" width="34.36363636363638" height="31.872272727272744" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-23" value="&lt;div&gt;TP-03&lt;/div&gt;&lt;div&gt;China East 2&lt;/div&gt;&lt;div&gt;tp-03.chinaeast2.cloudapp.chinacloudapi.cn&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=10;image=img/lib/azure2/compute/Virtual_Machine.svg;labelBackgroundColor=none;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacing=5;container=0;" vertex="1" parent="3_7FBYXguzVTnh4Cdywl-28">
+          <mxGeometry x="12.600000000000001" y="74.61000000000001" width="34.36363636363638" height="31.872272727272744" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-2" value="dev-ubuntu-host" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-972" y="336" width="36" height="33.39" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-5" value="dify-host&lt;div&gt;ai.restry.cn&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-972" y="460" width="36" height="33.39" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-7" value="PVE2&lt;div&gt;home.dsm.restry.cn&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-972" y="556" width="36" height="33.39" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-29" value="A&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;zure China&lt;/span&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/StorSimple_Device_Managers.svg;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="516" width="70" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.011;entryY=0.665;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="3_7FBYXguzVTnh4Cdywl-29" target="3_7FBYXguzVTnh4Cdywl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-32" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.599;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="3_7FBYXguzVTnh4Cdywl-29" target="3_7FBYXguzVTnh4Cdywl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.521;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="3_7FBYXguzVTnh4Cdywl-29" target="3_7FBYXguzVTnh4Cdywl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="3_7FBYXguzVTnh4Cdywl-29" target="3_7FBYXguzVTnh4Cdywl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="H5lBCUy4rbrqwhq_aTDK" name="第 2 页">
+    <mxGraphModel dx="1042" dy="538" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

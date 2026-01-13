@@ -46,20 +46,26 @@
         <mxCell id="8PCnPMQ6AbAsiABnb8o7-2" value="Azure Global" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Azure_A.svg;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="3_7FBYXguzVTnh4Cdywl-8">
           <mxGeometry x="492" y="47.999999999999986" width="68" height="64.12" as="geometry" />
         </mxCell>
-        <mxCell id="8PCnPMQ6AbAsiABnb8o7-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="3_7FBYXguzVTnh4Cdywl-8">
-          <mxGeometry x="24" y="72" width="276" height="96" as="geometry" />
-        </mxCell>
         <mxCell id="8PCnPMQ6AbAsiABnb8o7-4" value="externalacr" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Container_Registries.svg;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="3_7FBYXguzVTnh4Cdywl-8">
-          <mxGeometry x="27" y="204.00000000000003" width="36" height="32.29" as="geometry" />
+          <mxGeometry x="516" y="168.00000000000003" width="36" height="32.29" as="geometry" />
         </mxCell>
-        <mxCell id="8PCnPMQ6AbAsiABnb8o7-12" value="OpenAI Proxy" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/devops/API_Connections.svg;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacing=5;" vertex="1" parent="3_7FBYXguzVTnh4Cdywl-8">
-          <mxGeometry x="36" y="119.99999999999999" width="36" height="23.99" as="geometry" />
+        <mxCell id="8PCnPMQ6AbAsiABnb8o7-16" value="" style="group" vertex="1" connectable="0" parent="3_7FBYXguzVTnh4Cdywl-8">
+          <mxGeometry x="36" y="60" width="276" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="3_7FBYXguzVTnh4Cdywl-12" value="ai-gateway" style="image;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;" parent="3_7FBYXguzVTnh4Cdywl-8" vertex="1">
-          <mxGeometry x="36" y="76.01" width="18" height="24" as="geometry" />
+        <mxCell id="8PCnPMQ6AbAsiABnb8o7-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="8PCnPMQ6AbAsiABnb8o7-16">
+          <mxGeometry width="276" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="8PCnPMQ6AbAsiABnb8o7-14" value="&lt;div&gt;Docker Proxy&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/devops/API_Connections.svg;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacing=5;" vertex="1" parent="3_7FBYXguzVTnh4Cdywl-8">
-          <mxGeometry x="168" y="120" width="36" height="23.99" as="geometry" />
+        <mxCell id="8PCnPMQ6AbAsiABnb8o7-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="8PCnPMQ6AbAsiABnb8o7-16" source="8PCnPMQ6AbAsiABnb8o7-12" target="8PCnPMQ6AbAsiABnb8o7-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8PCnPMQ6AbAsiABnb8o7-12" value="OpenAI Proxy" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/devops/API_Connections.svg;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacing=5;" vertex="1" parent="8PCnPMQ6AbAsiABnb8o7-16">
+          <mxGeometry x="12" y="47.999999999999986" width="36" height="23.99" as="geometry" />
+        </mxCell>
+        <mxCell id="3_7FBYXguzVTnh4Cdywl-12" value="ai-gateway dp.eaips.net" style="image;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;" parent="8PCnPMQ6AbAsiABnb8o7-16" vertex="1">
+          <mxGeometry x="12" y="4.010000000000005" width="18" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="8PCnPMQ6AbAsiABnb8o7-14" value="&lt;div&gt;Docker Proxy&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/devops/API_Connections.svg;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacing=5;" vertex="1" parent="8PCnPMQ6AbAsiABnb8o7-16">
+          <mxGeometry x="144" y="48" width="36" height="23.99" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
